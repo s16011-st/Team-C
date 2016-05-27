@@ -23,6 +23,24 @@ gzbwilliam:
 Wangzisheng:
 
 lizelong:
+先週システムエラーしました
+CentOSのインストールからスタット
+gitをインストール
+yum install git git-gui
+sshを獲得
+ssh-keygen -t rsa -C "s16004@st.kic.ac.jp"
+.ssh/id_rsa.oubの内容をサイトへコピー
+githubとの接続をテスト
+ssh git@github.com
+gitユーザーの設定
+git config --global user.name "lizelong1988"
+git config --global user.email "s16004@st.kic.ac.jp"
+
+TEAM-Cのファイルを自分のパソコンへ
+git clone git@github.com:s16011-st/Team-C.git
+
+最後　git add , git commit ,git pushを使って
+物語の作成とアップロードしました
 
 s16011:
   git clone, git branch, git push, pull request, marge, deployなど、
